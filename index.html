@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>ARYAN - Portfolio</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="NavBar">
+                <div class="NavBar_name">
+                    ARYAN
+                </div>
+                <div class="NavBar_menu">
+                    <div class="menuItem" id="home_btn">
+                        <div class="menuItem_Part1"><div class="menu_img1 menu_item"></div></div>
+                        <div class="menuItem_Part2">HOME</div>
+                    </div>
+                    <div class="menuItem" id="aboutme_btn">
+                        <div class="menuItem_Part1"><div class="menu_img2 menu_item"></div></div>
+                        <div class="menuItem_Part2">ABOUT ME</div>  
+                    </div>
+                    <div class="menuItem" id="portfolio_btn">
+                        <div class="menuItem_Part1"><div class="menu_img3 menu_item"></div></div>
+                        <div class="menuItem_Part2">PORTFOLIO</div>
+                    </div>
+                    <div class="menuItem" id="contact_btn">
+                        <div class="menuItem_Part1"><div class="menu_img4 menu_item"></div></div>
+                        <div class="menuItem_Part2">CONTACT</div>
+                    </div>
+                </div>
+            </div>
+            <section class="home" id="home">
+                <div class="myname">HI, I'M ARYAN! <br/> <span class="myname_skill"> Website Developer </span> </div>
+                <div class="name_aboutme"> I'm a versatile developer, creating professional websites using HTML, CSS, JavaScript, and React. 
+                    I also excel in app development with XML, Java, and Flutter, building responsive and multi-functional 
+                    applications. My expertise covers both front-end and back-end development.</div>
+                <button class="btn_download_cv" id="btn_download_cv">Download CV
+                    <div class="down_image"></div>
+                </button>
+            </section>
+
+
+            <section class="aboutme" id="aboutme">
+                <div class="about_container">
+                    <div class="container_title">About Me</div>
+                    <div class="container_my_desc part1">I am Aryan Mehta, a third-year student majoring in Computer Science & Engineering.
+                         I excel in rapid learning and possess strong problem-solving and critical thinking skills. 
+                         I am enthusiastic about leveraging my expertise to make meaningful contributions to your software development team and to acquire practical industry experience. <br/>
+                    <div class="container_my_desc part2">Currently, I am pursuing a Bachelor's degree in Computer Science & Engineering and actively seeking a software engineering internship.</div>
+                        
+                    <div class="what_i_do_title">What I Do !</div>    
+                        <div class="what_i_do_section">
+                            <div class="what_i_do_section_sec1"> <img src="src/app_deve.png" height="100%"  width="100%"/> </div>
+                            <div class="what_i_do_section_sec2">
+                                <div class="sec2_title">App development</div>
+                                <div class="sec2_desc">Using cool tricks and latest tools, I craft custom apps for you. Whether on phone or tablet like Android, they work smoothly, doing what you need. From idea to ready-to-use, your app is awesome, fulfilling all wishes with style!</div>
+                            </div>
+                        </div>
+                        <div class="what_i_do_section what_i_do_section_bottom_sec">
+                            <div class="what_i_do_section_sec1"> <img src="src/web_deve.png" height="100%"  width="100%"/> </div>
+                            <div class="what_i_do_section_sec2">
+                                <div class="sec2_title">Web development</div>
+                                <div class="sec2_desc">With an eye for design and mastery of coding, I build dynamic websites that captivate and engage. Whether it's a sleek corporate portal or interactive e-commerce, I blend creativity and expertise for lasting impressions.</div>
+                            </div>
+                        </div>
+                    <div class="education_title">Education </div>
+                        <div class="education_section_part education_section_part_1">
+                            <div class="education_section_part_section_part1">
+                                <img src="src/college.png" height="100%" width="100%"/>
+                            </div>
+                            <div class="education_section_part_section_part2">
+                                <div class="edu_clg_year">2024 - Present</div>
+                                <div class="edu_clg_field">B.TECH (Computer Science & Engineering)</div>
+                                <div class="edu_clg_clgname">Indus University</div>
+                            </div>
+                        </div>
+                        <div class="education_section_part education_section_part_2">
+                            <div class="education_section_part_section_part1">
+                                <img src="src/college.png" height="100%" width="100%"/>
+                            </div>
+                            <div class="education_section_part_section_part2">
+                                <div class="edu_clg_year">2019 - 2022</div>
+                                <div class="edu_clg_field">Diploma (Computer Engineering)</div>
+                                <div class="edu_clg_clgname">Government Polytechnic Ahmedabad</div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <section class="portfolio" id="portfolio">
+
+                
+                <div class="Fintrack_popup" id="Fintrack_popup">
+                    <div class="cacel_btn" id="cacel_btn" onclick="popup_sec_close()"><img src="src/cancel.png" height="100%"/></div>
+                    <div class="project_name">FinTrack</div>
+                    <div class="project_info_sec">
+                        <div class="project_info">Project : Android Application</div>
+                        <div class="project_info">Client : Personal Project</div>
+                        <div class="project_info">Languages : Java, XML</div>
+                        <div class="project_info">Preview : Www.FinTrack.com</div>
+                    </div>
+                    <div class="project_desc_sec1">
+                        FinTrack is your personal finance companion! FinTrack is your one-stop solution for effortlessly managing your income and expenses, empowering you to take control of your finances with ease and precision.
+                    </div>
+                    <div class="project_desc_sec2">
+                        With FinTrack, you can seamlessly track your income and expenses, ensuring every financial transaction is accounted for and organized. Whether it's your monthly salary, a sudden expense, or a planned investment, FinTrack simplifies the process, giving you a clear overview of your financial health at your fingertips.
+                    </div>
+                    <div class="photos_Section">
+                        <div class="project_photos"> <img src="src/fin_1.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_2.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_3.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_4.jpg" height="100%" width="100%"/> </div>
+                    </div>
+                </div>
+
+                <div class="EatIt_popup" id="EatIt_popup">
+                    <div class="cacel_btn" id="cacel_btn" onclick="popup_sec_close()"><img src="src/cancel.png" height="100%"/></div>
+                    <div class="project_name">EatIt</div>
+                    <div class="project_info_sec">
+                        <div class="project_info">Project : Android Application</div>
+                        <div class="project_info">Client : Personal Project</div>
+                        <div class="project_info">Languages : Java, XML</div>
+                        <div class="project_info">Preview : Www.EatIt.com</div>
+                    </div>
+                    <div class="project_desc_sec1">
+                        EatIt is your ultimate recipe and meal planning companion! This Android application is designed to help you discover delicious recipes and make the most out of the ingredients you have on hand.
+                    </div>
+                    <div class="project_desc_sec2">
+                        With EatIt, you can easily find recipes that suit your taste and dietary preferences. Whether you're a seasoned chef or just starting out in the kitchen, EatIt makes cooking convenient and enjoyable by ensuring you can create great meals with what you already have.
+                    </div>
+                    <div class="photos_Section">
+                        <div class="project_photos"> <img src="src/fin_1.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_2.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_3.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_4.jpg" height="100%" width="100%"/> </div>
+                    </div>
+                </div>
+                
+                <div class="shoeHead_popup" id="shoeHead_popup">
+                    <div class="cacel_btn" id="cacel_btn" onclick="popup_sec_close()"><img src="src/cancel.png" height="100%"/></div>
+                    <div class="project_name">Shoe Head</div>
+                    <div class="project_info_sec">
+                        <div class="project_info">Project : Android Application</div>
+                        <div class="project_info">Client : Personal Project</div>
+                        <div class="project_info">Languages : HTML, CSS, JS, PHP</div>
+                        <div class="project_info">Preview : Www.EatIt.com</div>
+                    </div>
+                    <div class="project_desc_sec1">
+                        Shoe Head is your ultimate online destination for footwear! This e-commerce website is designed to offer a seamless shopping experience for all shoe enthusiasts.
+                    </div>
+                    <div class="project_desc_sec2">
+                        With Shoe Head, you can explore a vast collection of shoes ranging from casual sneakers to formal dress shoes. The website provides detailed product descriptions, customer reviews, and high-quality images to help you make informed purchase decisions. Whether you're looking for the latest trends or timeless classics, Shoe Head ensures you find the perfect pair with ease.
+                    </div>
+                    <div class="photos_Section">
+                        <div class="project_photos"> <img src="src/fin_1.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_2.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_3.jpg" height="100%" width="100%"/> </div>
+                        <div class="project_photos"> <img src="src/fin_4.jpg" height="100%" width="100%"/> </div>
+                    </div>
+                </div>
+
+
+                <div class="port_container">
+                    <div class="container_title">Portfolio</div>
+                    <div class="container_my_desc">
+                        Each project represents a distinct achievement in development. Below are examples of my work.
+                    </div>
+                    <div class="projetcs">
+                        <div class="project_menu">
+                            <div id="all_projects" class="project_menu_list active" onclick="project_sort_all()">
+                                All
+                                <div class="project_underline"></div>
+                            </div>
+                            <div id="website_projects" class="project_menu_list" onclick="project_sort_website()">
+                                Website
+                                <div class="project_underline"></div>
+                            </div>
+                            <div id="application_projects" class="project_menu_list" onclick="project_sort_application()">
+                                Application
+                                <div class="project_underline"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="project_item_container">
+                            <div class="project_items" onclick="fintract_popup()">
+                                <div class="project_item_photo"> <img src="src/FinTrack_logo.png" height="30%" width="100%"/> </div>
+                                <div class="project_items_field">Application</div>
+                                <div class="project_items_name">FinTrack</div>
+                            </div>
+                            <div class="project_items" onclick="EatIt_popup()">
+                                <div class="project_item_photo"> <img src="src/eat_it_logo.PNG" height="120%" width="150%"/> </div>
+                                <div class="project_items_field">Application</div>
+                                <div class="project_items_name">Eat It</div>
+                            </div>
+                            <div class="project_items" onclick="shoe_head_popup()">
+                                <div class="project_item_photo"> <img src="src/shoe_head_logo.png" height="150%" width="150%"/> </div>
+                                <div class="project_items_field">Website</div>
+                                <div class="project_items_name">Shoe Head</div>
+                            </div>
+                            <!-- <div class="project_items">
+                                <div class="project_item_photo"></div>
+                                <div class="project_items_field">Application</div>
+                                <div class="project_items_name">FinTrack</div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <div class="skill_section_1">
+                            <div class="skills_title">Working Skills</div>
+                            <div class="skill_main_section">
+                                <div class="skill_container">
+                                    <div class="skill_name"> <div class="sub_name_skill">Web Development</div> <div class="sub_skill_percentage">85%</div></div>
+                                    <div class="skill_range"> <div class="skill_web"></div> </div>
+                                </div>
+                                <div class="skill_container">
+                                    <div class="skill_name"> <div class="sub_name_skill">Application Development</div> <div class="sub_skill_percentage">80%</div></div>
+                                    <div class="skill_range"> <div class="skill_app"></div> </div>
+                                </div>
+                                <div class="skill_container">
+                                    <div class="skill_name"> <div class="sub_name_skill">Python</div> <div class="sub_skill_percentage">70%</div></div>
+                                    <div class="skill_range"> <div class="skill_python"></div> </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="skill_section_2">
+                            <div class="skills_title">Non-Technical Skills</div>
+                            <div class="non_tech_skill_sec">
+                                <div class="non_tech_skill">Problem Solving</div>
+                                <div class="non_tech_skill">Social Media</div>
+                                <div class="non_tech_skill">Flexibility</div>
+                                <div class="non_tech_skill">Critical Thinking</div>
+                                <div class="non_tech_skill">Time Management</div>
+                                <div class="non_tech_skill">Communication</div>
+                                <div class="non_tech_skill">Quick Learner</div>
+                            </div>
+                            </div> 
+                        </div>
+                        </div>
+
+                       
+                        </div>
+                    </div>
+            </section>
+
+
+            <section class="contact" id="contact">
+                <div class="contact_container">
+                    <div class="contact_details">
+                        <div class="contact_details_section">
+                            <div class="photo_section" style="margin-left: 40%;">
+                                <img src="src/smartphone.png" height="100%" width="100%"/>
+                            </div>
+                            <div class="contact_sec_name">Phone</div>
+                            <div class="contact_sec_desc">You can reach me via phone for any urgent inquiries. I am available to take calls during business hours.</div>
+                            <div class="contact_sec_value"><a href="tel:+919662159630">96621 59630</a></div>
+                        </div>
+                        <div class="contact_details_section">
+                            <div class="photo_section">
+                                <img src="src/map.png" height="100%" width="100%"/>
+                            </div>
+                            <div class="contact_sec_name">Location</div>
+                            <div class="contact_sec_desc">k-104 Dev Castle, B/H Topaz Hotel, Jaymala char rasta, Isanpur, Ahmedabad, Gujarat, India - 382443</div>
+                            <div class="contact_sec_value"> <a href="https://www.google.com/maps/place/XJJ2%2BX36+DEV+CASTLE,+Govind+Vadi+Rd,+Rachana+Maninagar+Society,+Jay+Krishna+Society,+Isanpur,+Ahmedabad,+Gujarat+380050/@22.9824471,72.597753,17z/data=!4m6!3m5!1s0x395e85f100e7d2ff:0x31f645b3f238db22!8m2!3d22.9824049!4d72.6001477!16s%2Fg%2F11bw3h5ls2?hl=en&entry=ttu" target="_blank"> View on map </a></div>
+                        </div>
+                        <div class="contact_details_section">
+                            <div class="photo_section">
+                                <img src="src/email.png" height="100%" width="100%"/>
+                            </div>
+                            <div class="contact_sec_name">Email</div>
+                            <div class="contact_sec_desc">For inquiries or collaboration opportunities, please feel free to contact me via email.</div>
+                            <div class="contact_sec_value"><a href="https://mail.google.com/mail/?view=cm&to=aryanmehta2649@gmail.com" target="_blank">aryanmehta2649@gmail.com</a></div>
+                        </div>
+                    </div>
+                    <div class="contact_form">
+                        <form action="https://formspree.io/f/mvoejkwz" method="post" id="myForm">
+                            <input type="text" name="name" class="name form_details" placeholder="Your Name Here" required />
+                            <input type="text" name="subject" class="subject form_details" placeholder="Subject" required />
+                            <input type="email" name="email" class="email form_details" placeholder="Email" required />
+                            <textarea name="message" class="message form_details" placeholder="Your Message Here" required ></textarea>
+                            <input type="submit" class="submit_btn" onclick="submit_method()">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+<script src="script.js"></script>
+</html>
