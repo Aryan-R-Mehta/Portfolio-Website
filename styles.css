@@ -48,7 +48,6 @@ body{
     transition: background-color 0.3s ease-in;
     transition: background 0.3s ease-in;
 }
-
 .menu_item{
     height: 4vh;
     width: 90%;
@@ -123,6 +122,33 @@ body{
     background-repeat: no-repeat;
 }
 
+
+
+.social_media{
+    display: flex;
+    margin-top: 3vh;
+}
+.socials_sec{
+    height: 4vh;
+    width: 3%;
+    margin-right: 1.5%;
+    border-radius: 50%;   
+    padding: 1%;
+    cursor: pointer;
+}
+.linkedin{
+
+    background-color: #0077B5;
+}
+.linkedin:hover{
+    background-color: #04669c;
+}
+.github{
+    background-color: white;
+}
+.github:hover{
+    background-color: rgb(199, 197, 197);
+}
 
 
 .home{
@@ -632,6 +658,9 @@ textarea::placeholder{
 input:focus{
     outline: none;
 }
+textarea:focus{
+    outline: none;
+}
 
 .name{
     width: 46%;
@@ -697,7 +726,6 @@ input:focus{
 
 
 @media only screen and (max-width: 1200px) {
-
     .NavBar{
         width: 100%;
         height: 7vh;
@@ -751,7 +779,7 @@ input:focus{
     }
     .myname{
         color: white;
-        padding-top: 18vh;
+        padding-top: 16vh;
         font-weight: bolder;
         font-size: 5vh
     }
@@ -765,6 +793,8 @@ input:focus{
         font-size: 1.8vh;
         line-height: 3vh;
         color: #A2A2A2;
+        text-align: justify;
+
     }
     .btn_download_cv{
         margin-top: 4vh;
@@ -812,6 +842,7 @@ input:focus{
         justify-content: space-around;
         margin-left: 0%;
         margin-top: 5vh;
+        padding-top: 12vh;
         color: white;
     }
     .about_container{
@@ -862,9 +893,8 @@ input:focus{
     }
     .sec2_desc{
         margin-top: 1.5vh;
-        font-size: 2vh;
+        font-size: 2.25vh;
         color: #BBBBBB;
-        font-weight: 100;
     }
     .education_title{
         margin-top: 3vh;
@@ -925,6 +955,9 @@ input:focus{
         justify-content: space-around;
         margin-left: 0%;
         padding: 0 7% ;
+        padding-top: 12vh;
+        text-align: justify;
+
         color: white;
     }
     .port_container{
@@ -1177,6 +1210,7 @@ input:focus{
         padding: 0;
         width: 86%;
         margin: 5vh 7% 0 7%;
+        padding-top: 12vh;
         color: white;
     }
     .contact_container{
@@ -1286,8 +1320,11 @@ input:focus{
     .message{
         height: 12vh;
         width: 95%;
+        font-weight: 500;
+        font-size: 2.2vh;
         padding: 1.5vh 2.5%;
         margin-bottom: 2.5vh;
+
     }
     
     .submit_btn{
@@ -1328,5 +1365,16 @@ input:focus{
         animation: popup_project 0.5s ease-in forwards;
     }
 
-
+    .social_media{
+        display: flex;
+        margin-top: 3vh;
+    }
+    .socials_sec{
+        height: 30px;
+        width: 30px;
+        margin-right: 4%;
+        border-radius: 50%;   
+        cursor: pointer;
+        padding: 3.5%;
+    }
   }
