@@ -96,3 +96,12 @@ function popup_sec_close()
 window.onload = function() {
     document.getElementById('myForm').reset();
 };
+
+function linkedin() {
+    window.open('https://www.linkedin.com/in/aryan-mehta-097140264/', '_blank');
+}
+
+
+function github(){
+    window.open('https://github.com/Aryan-R-Mehta', '_blank');
+}
